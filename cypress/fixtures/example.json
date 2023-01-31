@@ -1,0 +1,18 @@
+{
+  "sametaskdata":"Task 3",
+  "taskdata":"Task 4",
+  "status1":"To Do",
+  "status2":"In Progress",
+  "status3":"In Testing",
+  "status4":"Done",
+  "status5":"Blocked",
+  "sametaskerrormsg":"The task with such name already exists",
+  "titlereqerrormsg":"The title is requined",
+  "samedatecolumn":"6/1/2020",
+  "newdatecolumn":"01/01/2022",
+  "samedateerrormsg":"This date already exists",
+  "datereqerrormsg":"Date is required",
+  "expectedstatus":"Set Status",
+  "setstatus":["In Progress","In Testing"],
+  "invalidstatus":"fgshdghfd"
+}
