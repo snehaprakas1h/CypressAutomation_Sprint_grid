@@ -44,5 +44,22 @@ describe('Test suite to verify error messages while adding date column', functio
         
     })
 
+    it('test case to add date column with date not parsed in format',function(){
+
+        cy.visit(Cypress.env('url')) //launching url
+
+        angularAppHomePage.getAddDateBtn().click({force:true})
+
+        angularAppHomePage.getDateInputField().type('8765/22/87')
+
+        angularAppHomePage.getTaskTitle().click({force:true})
+
+        cy.wait(500)
+
+       angularAppHomePage.getSameDateErrorMsg().should('have.text',"Follow the format dd.mm.yyyy, please")
+        
+    })
+
+
 
 })
